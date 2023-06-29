@@ -1,0 +1,65 @@
+  .switch {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      display: inline-block;
+      width: 60px;
+      height: 34px;
+    }
+    
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    
+    .slider {
+      position: relative;
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      background-color: yellow;
+      border-radius: 34px;
+      transition: background-color 0.3s ease;
+    }
+    
+    .slider:before {
+      content: "";
+      position: absolute;
+      left: 4px;
+      bottom: 4px;
+      width: 26px;
+      height: 26px;
+      background-image: url('https://cdn-icons-png.flaticon.com/512/1788/1788911.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      border-radius: 50%;
+      transition: transform 0.5s ease;
+    }
+    
+    .slider:after {
+      content: "";
+      position: absolute;
+      right: 4px;
+      bottom: 4px;
+      width: 26px;
+      height: 26px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      color: yellow;
+      border-radius: 50%;
+      transition: transform 0.3s ease;
+    }
+    
+    input:checked + .slider {
+      background-color: #5921f3;
+    }
+    
+    input:checked + .slider:before {
+      transform: translateX(26px);
+      background-image: url('https://cdn-icons-png.flaticon.com/512/9188/9188489.png');
+    }
+    
+    input:checked + .slider:after {
+      transform: translateX(-26px);
+    }
