@@ -44,7 +44,7 @@ function boxClicked(e) {
 
         if (currentPlayer == O_TEXT) {
             isUserTurn = false; 
-            setTimeout(enemyMove, 500);
+            setTimeout(enemyMove, 200);
         }
     }
 }
