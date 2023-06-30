@@ -35,6 +35,10 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     margin-top: 40px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 .box {
