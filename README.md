@@ -30,9 +30,8 @@
 
   <h2>Installation</h2>
   <ol>
-    <li>Clone the repository: <code>git clone https://github.com/your-username/tic-tac-toe.git</code></li>
-    <li>Navigate to the project directory: <code>cd tic-tac-toe</code></li>
-    <li>Open the <code>index.html</code> file in a web browser.</li>
+    <li>Clone the repository: <code>git clone https://github.com/Underemployed/Tic_Tac_Toe.git</code></li>
+    <li>Open the <code>index.html</code> file in a web browser using live server</li>
   </ol>
 
   <h2>Contributing</h2>
